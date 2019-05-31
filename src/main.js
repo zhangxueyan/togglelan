@@ -3,13 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/css/init.css'
 
-import VueI18n from 'vue-i18n'
 
-Vue.use(VueI18n);
 
 Vue.config.productionTip = false
 
+
+
+import VueI18n from 'vue-i18n'
+Vue.use(VueI18n);
 const i18n = new VueI18n({
     locale: 'zh',  // 语言标识
     messages: {
@@ -17,6 +20,12 @@ const i18n = new VueI18n({
         'en': require('./lang/en')
     }
 })
+
+//全屏滚动 vueAwesomeSwiper
+import 'swiper/dist/css/swiper.css'
+import vueAwesomeSwiper from 'vue-awesome-swiper'
+Vue.use(vueAwesomeSwiper);
+
 
 
 /* eslint-disable no-new */

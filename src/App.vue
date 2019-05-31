@@ -1,12 +1,19 @@
 <template>
   <div id="app">
+  	<nav-bar></nav-bar>
     <router-view/>
   </div>
 </template>
 
 <script>
+import NavBar from './components/NavBar'
+import HelloWorld from './components/HelloWorld'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+  	NavBar,
+    HelloWorld
+  }
 }
 </script>
 
@@ -17,6 +24,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
