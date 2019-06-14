@@ -26,43 +26,30 @@
 	width:110px;
 	text-align:center;
 	z-index: 100;
-}
-.nav-item.first .nav-child{
-color:red;
-}
-.nav-item.active .nav-child{
-color:red;
-}
-.nav-item.active .nav-slide{
-  display:block;
-}
-.nav-child{
-	padding: 0 20px;
-	height: 60px;
+	color:#fff;
 	line-height: 60px;
-	font-size: 16px;
-	color:#fff;
-	overflow: hidden;
-	text-overflow:ellipsis;
+	text-overflow: ellipsis;
 	white-space: nowrap;
+	overflow: hidden;
 }
-
-.nav-slide{
-	width:100%;
-	position: absolute;
-	left:0;
-	top:60px;
-	background: rgba(0,0,0,0.6);
-	display:none;
-}
-.nav-sitem{
-	line-height:40px;
-	font-size:16px;
-	color:#fff;
-}
-.nav-sitem.active{
+.nav-item.active{
 	color:red;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .togLan{
   width:100px;
   float:right;
