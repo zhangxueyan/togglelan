@@ -39,8 +39,10 @@
            <p>{{$t('part7Titl')}}<br><span>{{$t('part7Subt')}}</span></p>
          </div>
          <div class="part7-riqi clearfix">
-            <span class="month">06</span>
-            <span class="date">02</span>
+            <span class="part7-s1 month">06</span>
+            <span class="part7-s2">{{$t('part7Month')}}</span>
+            <span class="part7-s1 date">02</span>
+            <span class="part7-s2">{{$t('part7Date')}}</span>
          </div>
          <div class="part7-note">{{$t('part7Note')}}</div>
 

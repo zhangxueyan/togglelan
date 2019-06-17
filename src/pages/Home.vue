@@ -40,10 +40,7 @@
               <p class="part3-p1">{{$t('part3Text1')}}</p>
               <p class="part3-p2">{{$t('part3Text2')}}</p>
 
-              <p class="part3-p3">{{$t('part3Text3a')}}</p>
-              <p class="part3-p3">{{$t('part3Text3b')}}</p>
-              <p class="part3-p3">{{$t('part3Text3c')}}</p>
-              <p class="part3-p3">{{$t('part3Text3d')}}</p>
+              <p class="part3-p3" v-html="$t('part3Text3')"></p>
 
               <p class="part3-p4">{{$t('part3Text4')}}</p>
             </div>

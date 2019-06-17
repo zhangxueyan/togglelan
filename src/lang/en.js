@@ -14,7 +14,7 @@ module.exports = {
        },
        {title:"Students' aspirations",isActive:false,isFirst:false,link:'studentvoice'},
        {title:"Company news",isActive:false,isFirst:false,link:'companynews'},
-       {title:"Company introduction",isActive:false,isFirst:false,link:'companyprofile'},
+       {title:"Company profile",isActive:false,isFirst:false,link:'companyprofile'},
        {title:"Contact us",isActive:false,isFirst:false,link:'contactus'}
     ],
     part1Titl:'New Kang Education Tailor-made Academic Degree Promotion Program',
@@ -101,10 +101,7 @@ module.exports = {
     part3Text1:"Teacher lineup",
     part3Text2:"Your life mentor",
 
-    part3Text3a:"① Building a Team of High Quality Teachers",
-    part3Text3b:"② More reliable",
-    part3Text3c:"③ Better understanding of test points",
-    part3Text3d:"④ Better Communication",
+    part3Text3:"① Building a Team of High Quality Teachers<br>② More reliable<br>③ Better understanding of test points<br>④ Better Communication",
 
     part3Text4:"In the new well-off education, you will surely find a suitable mentor for you.",
     
@@ -185,6 +182,8 @@ module.exports = {
     ],
     part7Titl:'The time for the first examination of adult education in Shanghai in 2019 is coming to an end.',
     part7Subt:'Self-taught undergraduate enrollment time is only twice a year, every year in March and September, missed will delay graduation for at least one year.',
+    part7Month:'Month',
+    part7Date:'Date',
     part7Note:'Reminds: 1) the examination room quota, the examination room is arranged in remote areas; 2) the number of professional colleges is limited.',
     part7Items:[
         {
@@ -422,7 +421,31 @@ module.exports = {
 
     part15SideBtn4:'Company Profile',
     part15SideBtn5:'Contact us',
+    // newsdetails
+    newsCt:{
+        '0001':{
+          title:'Ye Career--Why Should Xinkang Education Carry out Thanksgiving Education for Students',
+          date:'2018-12-21',
+          visits:'2028',
+          text:'The great poet Tagore has such a famous saying: "The cause of flowers is sweet, the cause of fruits is precious". And what we do in Xinkang is the cause of "leaf". Every teacher is like a green leaf. Under the leadership of the college, he is carrying out photosynthesis, nurturing flowers, fruits and fragrant peaches and plums. As a full-time college, we should not only devote ourselves to the improvement of students knowledge, but also emphasize the improvement of students personal quality and character. Let us cherish a grateful heart and thank parents for giving our children to us at ease. We should convey our love, our wisdom and our gratitude to every student. Gratitude is an attitude towards life, a virtue, a piece of heartfelt words. <br> Modern children are the center of the family. They only know how to love themselves and others. Not only do many students not appreciate their parents hard work, but they endlessly ask for, buy food, buy clothes and go to Internet cafes. In their eyes, it is natural to ask parents for money. Among College students, many students ask for money from their parents, but less than one-tenth of them write to their families to greet them. We shouldn not do this. We should always be considerate of others. When parents give you something, they should say "Thank you". They should do some housework for their parents. They should also study hard to repay teachers and schools. <br> The American folk song Old Black Slave,'
 
+        },
+        '0002':{
+          title:'Xinkang Education-Employment Guidance Course Experts to Help',
+          date:'2018-12-21',
+          visits:'2028',
+          text:'At 9:30 a.m. on August 1, a team of experts led by the deputy director of Shanghai Vocational Agency visited Shanghai Xinkang College of Continuing Education and held a "Golden Sunshine Employment Guidance Lecture" in our college. <br> In order to help senior graduates to accurately and effectively determine the direction of employment and prepare for employment in advance, the Training and Employment Center and Shanghai Vocational Guidance Experts jointly gave detailed guidance on the current employment form, direction and orientation. The 13-level students who participated in this lecture gained a lot of valuable experience. <br> With vivid language and vivid examples, experts have made a detailed analysis for students on how to view the current employment situation, how to correctly analyze their strengths and weaknesses, and how to change the concept of employment'
+
+        },
+        '0003':{
+          title:'Xinkang Education strives to do a good job in training useful talents for the society',
+          date:'2018-12-21',
+          visits:'2028',
+          text:'Parents! In an era of intense social competition, it is impossible to have a wealth of scientific and cultural knowledge. "Knowledge is power." The importance of knowledge to modern society is self-evident. Now we are confronted with both opportunities and challenges. Whoever wins the first important decision in life will guarantee the success of the future. <br> Children are the greatest hope of every family. As a private college carrying the hope of many families, Xinkang Education has the responsibility and obligation to train your children to be useful talents in society. <br> The College has created an environment, atmosphere and conditions conducive to learning for students, and has provided positive education and guidance from the aspects of learning methods, learning attitudes and learning habits. At the same time, the college should timely guide and correct the puzzles, emotional fluctuations and behavioral deviations in the process of childrens growth.'
+        }
+    },
+    part16Time:'Release time',
+    part16Visits:'Access',
     part17Addr:'Address: 22 Floor, Yan Building, 3553 Zhongshan North Road, Putuo District, Shanghai',
     part17Tel:'Telephone: 400-060-6080',
 
@@ -435,5 +458,14 @@ module.exports = {
       {text1:'800+',text2:'Cooperative Enterprises',isFirst:false},
       {text1:'200+',text2:'Institutional Cooperation',isFirst:false}
     ],
-    part17Text1:'Shanghai Xinkang College of Further Education was established in 2007 and approved by the District Education Bureau. It was approved by the Shanghai Education Committee, the Higher Education Self-taught Examination Committee and the District Education Bureau in July 2011. It has obtained the qualifications of self-taught higher education examination assistant units and engaged in non-academic amateur and full-time education of higher education and below. '
+    part17Text:'Shanghai Xinkang College of Further Education was established in 2007 and approved by the District Education Bureau. It was approved by the Shanghai Education Committee, the Higher Education Self-taught Examination Committee and the District Education Bureau in July 2011. It has obtained the qualifications of self-taught higher education examination assistant units and engaged in non-academic amateur and full-time education of higher education and below. ',
+
+    part17Titl2:'corporate culture',
+
+    part17Subt1:'Our Mission',
+    part17Text1:'Let Learning Achieve a Better Future',
+    part17Subt2:'Our Vision',
+    part17Text2:'Become the most respected educational institution with cultural value. Only by being responsible to the students and society can we have a foothold in the cause of education and gain real respect.',
+    part17Subt3:'Core values',
+    part17Text3:'1.) Student First, Achieving Student is the only reason why we exist.。<br>2.) Team work, sharing and sharing, ordinary people work together to achieve extraordinary things.<br>3.) Honesty and dedication, honesty and trustworthiness, professional perseverance.<br>4.) Execution, result orientation, immediate action.<br>5.) Innovation, embracing change and daring to innovate.<br>6.) Passion, never give up, optimistic.',
 }  

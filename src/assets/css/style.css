@@ -344,18 +344,26 @@
   height: 206px;
   margin:20px auto 0;
   background:url(../images/zx3.1_03.jpg) no-repeat center;
-  padding:0 100px;
+  padding: 0 60px 0 100px;
 }
-.part7-riqi span{
+.part7-s1{
   display:block;
   float: left;
-  width: 170px;
+  width: 150px;
   font-size: 80px;
-  line-height: 154px;
+  line-height:154px;
   color:#fff;
 }
-.part7-riqi span.date{
-  margin-left:30px;
+.part7-s2{
+ display:block;
+ width:45px;
+ overflow:hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+  float: left;
+    font-size: 30px;
+    line-height: 200px;
+    color: #000;
 }
 .part7-note{
   background: url(../images/zxtx_03.jpg) no-repeat center center;

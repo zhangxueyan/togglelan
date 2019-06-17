@@ -4,8 +4,8 @@
     <div class="part15">
         <div class="container clearfix">
            <div class="part15-sidebar fl">
-             <router-link to="companyprofile" class="part15-sv">{{$t('part15SideBtn3')}}</router-link>
-             <router-link to="contactus" class="part15-sv active">{{$t('part15SideBtn4')}}</router-link>
+             <router-link to="companyprofile" class="part15-sv">{{$t('part15SideBtn4')}}</router-link>
+             <router-link to="contactus" class="part15-sv active">{{$t('part15SideBtn5')}}</router-link>
            </div>
 
            <div class="part15-content part17-content2 fr">
